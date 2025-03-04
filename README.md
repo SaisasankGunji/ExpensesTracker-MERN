@@ -1,12 +1,17 @@
-# React + Vite
+# Expenses Tracker - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Expenses Tracker application, built using Vite and React. It provides a user-friendly interface for managing and tracking expenses efficiently.
 
-Currently, two official plugins are available:
+Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite + React: For a fast and optimized development experience.
 
-## Expanding the ESLint configuration
+Redux Toolkit: For state management across the application.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+TanStack Query (React Query): For handling server-state and caching API requests efficiently.
+
+Tailwind CSS: For styling the UI with a utility-first approach.
+
+Formik + Yup: For form handling and validation.
+
+Axios: For making HTTP requests to the backend API.
