@@ -72,7 +72,7 @@ const RegistrationForm = () => {
         <AlertMessage type="success" message="Registration success" />
       )}
       <p className="text-sm text-center text-gray-500">
-        Join our community now!
+        To Create an account now!
       </p>
 
       {/* Input Field - Username */}
